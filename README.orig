@@ -1,0 +1,21 @@
+gnstg is OpenGL based shooting game.
+
+*How to compile
+$ cd gnstg*
+$ make
+$ ./gnstg
+
+*How to play
+Move: w,a,s,d key
+Shot: k key
+Quit: 9 key
+
+*Inside and Conceptual
+See Conceptual.*
+
+*License
+See LICENSE.
+
+*Author
+Yusuke Ito
+(j05407@ei.nagano-nct.ac.jp)

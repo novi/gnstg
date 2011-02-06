@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C385DD0F442CE1007ECDD9 /* GNMotion.c in Sources */ = {isa = PBXBuildFile; fileRef = 52C385DC0F442CE1007ECDD9 /* GNMotion.c */; };
+		52D095060F43E6A900DF4679 /* GNSTCharaDraw.c in Sources */ = {isa = PBXBuildFile; fileRef = 52D094FE0F43E6A900DF4679 /* GNSTCharaDraw.c */; };
+		52D095070F43E6A900DF4679 /* GNSTPlayer.c in Sources */ = {isa = PBXBuildFile; fileRef = 52D094FF0F43E6A900DF4679 /* GNSTPlayer.c */; };
+		52D095080F43E6A900DF4679 /* GNShape.c in Sources */ = {isa = PBXBuildFile; fileRef = 52D095000F43E6A900DF4679 /* GNShape.c */; };
+		52D095090F43E6A900DF4679 /* GNSTChara.c in Sources */ = {isa = PBXBuildFile; fileRef = 52D095010F43E6A900DF4679 /* GNSTChara.c */; };
+		52D0950A0F43E6A900DF4679 /* GNSTEnemy.c in Sources */ = {isa = PBXBuildFile; fileRef = 52D095020F43E6A900DF4679 /* GNSTEnemy.c */; };
+		52D0950B0F43E6A900DF4679 /* GNSTMap.c in Sources */ = {isa = PBXBuildFile; fileRef = 52D095030F43E6A900DF4679 /* GNSTMap.c */; };
+		52D0950C0F43E6A900DF4679 /* GNGeometory.c in Sources */ = {isa = PBXBuildFile; fileRef = 52D095040F43E6A900DF4679 /* GNGeometory.c */; };
+		52D0950D0F43E6A900DF4679 /* GNAnim.c in Sources */ = {isa = PBXBuildFile; fileRef = 52D095050F43E6A900DF4679 /* GNAnim.c */; };
+		52D0951B0F43E6D800DF4679 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D0951A0F43E6D800DF4679 /* OpenGL.framework */; };
+		52D0955E0F43E94400DF4679 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D0955D0F43E94400DF4679 /* GLUT.framework */; };
+		52E24EF30F4919F800A763D5 /* GNSTBackg.c in Sources */ = {isa = PBXBuildFile; fileRef = 52E24EF20F4919F800A763D5 /* GNSTBackg.c */; };
+		52F5AA710F512D970046F4D3 /* GNFont.c in Sources */ = {isa = PBXBuildFile; fileRef = 52F5AA700F512D970046F4D3 /* GNFont.c */; };
+		52F5ACBD0F5147AC0046F4D3 /* GNSTInfoView.c in Sources */ = {isa = PBXBuildFile; fileRef = 52F5ACBC0F5147AC0046F4D3 /* GNSTInfoView.c */; };
+		52F5ACC00F51491E0046F4D3 /* GNNumberView.c in Sources */ = {isa = PBXBuildFile; fileRef = 52F5ACBF0F51491E0046F4D3 /* GNNumberView.c */; };
+		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5200FA760F4880CA00977C4C /* GNSTParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSTParam.h; sourceTree = "<group>"; };
+		52C385DB0F442CE1007ECDD9 /* GNMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNMotion.h; sourceTree = "<group>"; };
+		52C385DC0F442CE1007ECDD9 /* GNMotion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNMotion.c; sourceTree = "<group>"; };
+		52D094FE0F43E6A900DF4679 /* GNSTCharaDraw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNSTCharaDraw.c; sourceTree = "<group>"; };
+		52D094FF0F43E6A900DF4679 /* GNSTPlayer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNSTPlayer.c; sourceTree = "<group>"; };
+		52D095000F43E6A900DF4679 /* GNShape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNShape.c; sourceTree = "<group>"; };
+		52D095010F43E6A900DF4679 /* GNSTChara.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNSTChara.c; sourceTree = "<group>"; };
+		52D095020F43E6A900DF4679 /* GNSTEnemy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNSTEnemy.c; sourceTree = "<group>"; };
+		52D095030F43E6A900DF4679 /* GNSTMap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNSTMap.c; sourceTree = "<group>"; };
+		52D095040F43E6A900DF4679 /* GNGeometory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNGeometory.c; sourceTree = "<group>"; };
+		52D095050F43E6A900DF4679 /* GNAnim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNAnim.c; sourceTree = "<group>"; };
+		52D0950E0F43E6B400DF4679 /* GNSTPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSTPlayer.h; sourceTree = "<group>"; };
+		52D0950F0F43E6B400DF4679 /* GNSTGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSTGlobal.h; sourceTree = "<group>"; };
+		52D095100F43E6B400DF4679 /* GNSTEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSTEnemy.h; sourceTree = "<group>"; };
+		52D095110F43E6B400DF4679 /* GNShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNShape.h; sourceTree = "<group>"; };
+		52D095120F43E6B400DF4679 /* GNSTMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSTMap.h; sourceTree = "<group>"; };
+		52D095130F43E6B400DF4679 /* GNStd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNStd.h; sourceTree = "<group>"; };
+		52D095140F43E6B400DF4679 /* GNAnim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNAnim.h; sourceTree = "<group>"; };
+		52D095150F43E6B400DF4679 /* GNGeometory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNGeometory.h; sourceTree = "<group>"; };
+		52D095160F43E6B400DF4679 /* GNSTChara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSTChara.h; sourceTree = "<group>"; };
+		52D095170F43E6B400DF4679 /* GNSTCharaParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSTCharaParam.h; sourceTree = "<group>"; };
+		52D0951A0F43E6D800DF4679 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		52D0955D0F43E94400DF4679 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		52E24EF10F4919F800A763D5 /* GNSTBackg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSTBackg.h; sourceTree = "<group>"; };
+		52E24EF20F4919F800A763D5 /* GNSTBackg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNSTBackg.c; sourceTree = "<group>"; };
+		52F5AA6F0F512D970046F4D3 /* GNFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNFont.h; sourceTree = "<group>"; };
+		52F5AA700F512D970046F4D3 /* GNFont.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNFont.c; sourceTree = "<group>"; };
+		52F5ACBB0F5147AC0046F4D3 /* GNSTInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNSTInfoView.h; sourceTree = "<group>"; };
+		52F5ACBC0F5147AC0046F4D3 /* GNSTInfoView.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNSTInfoView.c; sourceTree = "<group>"; };
+		52F5ACBE0F51491E0046F4D3 /* GNNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNNumberView.h; sourceTree = "<group>"; };
+		52F5ACBF0F51491E0046F4D3 /* GNNumberView.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GNNumberView.c; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* gnstg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gnstg; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D0951B0F43E6D800DF4679 /* OpenGL.framework in Frameworks */,
+				52D0955E0F43E94400DF4679 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* gnstg */ = {
+			isa = PBXGroup;
+			children = (
+				52D0955D0F43E94400DF4679 /* GLUT.framework */,
+				52D0951A0F43E6D800DF4679 /* OpenGL.framework */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = gnstg;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.c */,
+				52D095130F43E6B400DF4679 /* GNStd.h */,
+				52D0950F0F43E6B400DF4679 /* GNSTGlobal.h */,
+				5200FA760F4880CA00977C4C /* GNSTParam.h */,
+				52D095110F43E6B400DF4679 /* GNShape.h */,
+				52D095000F43E6A900DF4679 /* GNShape.c */,
+				52D095140F43E6B400DF4679 /* GNAnim.h */,
+				52D095050F43E6A900DF4679 /* GNAnim.c */,
+				52D095150F43E6B400DF4679 /* GNGeometory.h */,
+				52D095040F43E6A900DF4679 /* GNGeometory.c */,
+				52D095120F43E6B400DF4679 /* GNSTMap.h */,
+				52D095030F43E6A900DF4679 /* GNSTMap.c */,
+				52D095100F43E6B400DF4679 /* GNSTEnemy.h */,
+				52D095020F43E6A900DF4679 /* GNSTEnemy.c */,
+				52D0950E0F43E6B400DF4679 /* GNSTPlayer.h */,
+				52D094FF0F43E6A900DF4679 /* GNSTPlayer.c */,
+				52D095160F43E6B400DF4679 /* GNSTChara.h */,
+				52D095010F43E6A900DF4679 /* GNSTChara.c */,
+				52D095170F43E6B400DF4679 /* GNSTCharaParam.h */,
+				52D094FE0F43E6A900DF4679 /* GNSTCharaDraw.c */,
+				52C385DB0F442CE1007ECDD9 /* GNMotion.h */,
+				52C385DC0F442CE1007ECDD9 /* GNMotion.c */,
+				52E24EF10F4919F800A763D5 /* GNSTBackg.h */,
+				52E24EF20F4919F800A763D5 /* GNSTBackg.c */,
+				52F5AA6F0F512D970046F4D3 /* GNFont.h */,
+				52F5AA700F512D970046F4D3 /* GNFont.c */,
+				52F5ACBB0F5147AC0046F4D3 /* GNSTInfoView.h */,
+				52F5ACBC0F5147AC0046F4D3 /* GNSTInfoView.c */,
+				52F5ACBE0F51491E0046F4D3 /* GNNumberView.h */,
+				52F5ACBF0F51491E0046F4D3 /* GNNumberView.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* gnstg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* gnstg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "gnstg" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gnstg;
+			productInstallPath = "$(HOME)/bin";
+			productName = gnstg;
+			productReference = 8DD76FB20486AB0100D96B5E /* gnstg */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "gnstg" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* gnstg */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* gnstg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+				52D095060F43E6A900DF4679 /* GNSTCharaDraw.c in Sources */,
+				52D095070F43E6A900DF4679 /* GNSTPlayer.c in Sources */,
+				52D095080F43E6A900DF4679 /* GNShape.c in Sources */,
+				52D095090F43E6A900DF4679 /* GNSTChara.c in Sources */,
+				52D0950A0F43E6A900DF4679 /* GNSTEnemy.c in Sources */,
+				52D0950B0F43E6A900DF4679 /* GNSTMap.c in Sources */,
+				52D0950C0F43E6A900DF4679 /* GNGeometory.c in Sources */,
+				52D0950D0F43E6A900DF4679 /* GNAnim.c in Sources */,
+				52C385DD0F442CE1007ECDD9 /* GNMotion.c in Sources */,
+				52E24EF30F4919F800A763D5 /* GNSTBackg.c in Sources */,
+				52F5AA710F512D970046F4D3 /* GNFont.c in Sources */,
+				52F5ACBD0F5147AC0046F4D3 /* GNSTInfoView.c in Sources */,
+				52F5ACC00F51491E0046F4D3 /* GNNumberView.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = gnstg;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = gnstg;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = SysOSX;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = YES;
+				SDKROOT = macosx10.5;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = SysOSX;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "gnstg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "gnstg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
